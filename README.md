@@ -10,4 +10,4 @@ Este repositório contém a solução para o case técnico do iFood, com foco em
 
 ## 📈 Objetivo
 
-Comparar os grupos *target* (com cupom) e *control* (sem cupom) em métricas como:
+Comparar os grupos *target* (com cupom) e *control* (sem cupom).
