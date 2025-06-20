@@ -13,14 +13,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from math import floor
 from scipy.stats import ttest_ind
 from statsmodels.stats.proportion import proportions_ztest
 
 from pyspark.sql import functions as F
 from pyspark.sql.functions import (
     col, count, countDistinct, sum, avg, when, round, lit,
-    lag, datediff, dayofweek, concat_ws, to_date, hour, date_format
+    lag, datediff, dayofweek, concat_ws, to_date, hour, date_format, floor
 )
 from pyspark.sql.window import Window
 
